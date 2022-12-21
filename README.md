@@ -1,12 +1,12 @@
 - Calculated capacitance of the conical plate capacitor that uses water a dielectric and compares this  to the predetermined capacitance of  when the water is 10% pull
-- If it matches call, function `tenpercent` that outputs an audio signal through the speakers that water level is 10%.
+- If it matches, call function `tenpercent` that outputs an audio signal through the speakers that water level is 10%.
 - Otherwise, continuously compare values loaded and stored until they match the 10% value.
 - After 10% is reached, check for 20% and repeat until cup is full while providing audible output for each 10% increment.
 - Also built an LCD display that runs on a 72MHz clock, that blinks and displays the  water level at the same time as the voice line.
 
 ## Circuit 
 - Uses an 8051 based microcontroller (EFM8 board)
-![Circuit](pics/hardware_block_diagram.jpg)
+![Circuit](./Pics/hardware_block_diagram.jpg)
 1. EFM8 Board: This is the central microcontroller of the system running on 8051 architecture. It also controls the system clock.
 2. MCP1700-3320E: A low dropout positive voltage regulator.
 3. 25Q32: This is the SPI memory, with a capacity of 32 megabits or 4 megabytes.

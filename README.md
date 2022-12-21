@@ -1,3 +1,4 @@
+A liquid/water level detector to aid visually impaired people to serve drinks
 - Calculated capacitance of the conical plate capacitor that uses water a dielectric and compares this  to the predetermined capacitance of  when the water is 10% pull
 - If it matches, call function `tenpercent` that outputs an audio signal through the speakers that water level is 10%.
 - Otherwise, continuously compare values loaded and stored until they match the 10% value.
